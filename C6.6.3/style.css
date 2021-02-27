@@ -1,0 +1,87 @@
+.input_message{
+    border-width: 3px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 5px;
+    min-height: 30px;
+    
+}
+
+.field_chat_message{
+    border-width: 3px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 5px;
+    width: 460px;
+    min-height: 330px;
+    max-height: 330px;
+    margin-top: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: scroll;
+    overflow-x: hidden;  
+    
+  
+}
+
+
+
+.message_user{
+    align-self: flex-end;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 5px;
+    max-width: 60%;
+    width: fit-content;
+}
+
+.message_server{
+    align-self: flex-start;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 5px;
+    max-width: 60%;
+    width: fit-content;
+}
+
+.message_user > p{
+    margin: 0;
+    word-wrap: break-word;
+}
+
+.message_server > p{
+    margin: 0;
+    word-wrap: break-word;
+}
+
+.sendler{
+    color: gray;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.btn_open_socket{
+    margin-top: 5px;
+}
+
+
+.btn_close_socket{
+    margin-top: 5px;
+}
+
+.btn_clear_chat{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.bottom_btn{
+    display: flex;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>WebSocket echo chat</h1>
+    <div class="field_send_message">
+        <input class="input_message" type="text" placeholder="введите сообщение">
+        <button class="btn_send_message">Отправить</button>
+        <button class="btn_get_position">Гео-локация</button>
+    </div>
+    <div class="field_chat_message"></div>
+
+    <div class="bottom_btn">
+        <button class="btn_open_socket" style="display: block;">Открыть соединение</button>
+        <button class="btn_close_socket" style="display: none;">Закрыть соединение</button>
+        <button class="btn_clear_chat" style="display: block;">Очистить чат</button>
+    </div>
+
+    <div class="info_log"><p style="color: green;">Соединение закрыто</p></div>
+    <script src="script.js"></script>
+</body>
+</html>
